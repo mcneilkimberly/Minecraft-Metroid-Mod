@@ -1,0 +1,11 @@
+{
+	"required": true,
+	"package": "io.github.mcneilkimberly.cubetroidmod.mixin",
+	"compatibilityLevel": "JAVA_21",
+	"mixins": [
+		"ExampleMixin"
+	],
+	"injectors": {
+		"defaultRequire": 1
+	}
+}
