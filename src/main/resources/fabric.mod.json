@@ -2,8 +2,8 @@
 	"schemaVersion": 1,
 	"id": "cubetroidmod",
 	"version": "${version}",
-	"name": "Cubetroid Mod",
-	"description": "A Metroid mod for Minecraft",
+	"name": "Cubetroid",
+	"description": "This is an example description! Tell everyone what your mod is about!",
 	"authors": [
 		"Me!"
 	],
@@ -16,13 +16,13 @@
 	"environment": "*",
 	"entrypoints": {
 		"main": [
-			"io.github.pikalyx.cubetroidmod.CubetroidMod"
+			"io.github.mcneilkimberly.cubetroidmod.Cubetroid"
 		],
 		"client": [
-			"io.github.pikalyx.cubetroidmod.CubetroidModClient"
+			"io.github.mcneilkimberly.cubetroidmod.CubetroidClient"
 		],
 		"fabric-datagen": [
-			"io.github.pikalyx.cubetroidmod.CubetroidModDataGenerator"
+			"io.github.mcneilkimberly.cubetroidmod.CubetroidDataGenerator"
 		]
 	},
 	"mixins": [
@@ -34,8 +34,11 @@
 	],
 	"depends": {
 		"fabricloader": ">=0.16.9",
-		"minecraft": "~1.21.4",
+		"minecraft": "~1.21.1",
 		"java": ">=21",
 		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
 	}
 }

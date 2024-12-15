@@ -1,6 +1,6 @@
 {
 	"required": true,
-	"package": "io.github.pikalyx.cubetroidmod.mixin",
+	"package": "io.github.mcneilkimberly.cubetroidmod.mixin",
 	"compatibilityLevel": "JAVA_21",
 	"mixins": [
 		"ExampleMixin"
