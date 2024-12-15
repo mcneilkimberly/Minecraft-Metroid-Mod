@@ -3,7 +3,7 @@
 	"id": "cubetroidmod",
 	"version": "${version}",
 	"name": "Cubetroid Mod",
-	"description": "This is an example description! Tell everyone what your mod is about!",
+	"description": "A Metroid mod for Minecraft",
 	"authors": [
 		"Me!"
 	],
@@ -37,8 +37,5 @@
 		"minecraft": "~1.21.4",
 		"java": ">=21",
 		"fabric-api": "*"
-	},
-	"suggests": {
-		"another-mod": "*"
 	}
 }
