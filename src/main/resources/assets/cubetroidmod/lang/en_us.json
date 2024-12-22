@@ -5,5 +5,6 @@
   "item.cubetroidmod.example_helmet": "Example Helmet",
   "item.cubetroidmod.example_chestplate": "Example Chestplate",
   "item.cubetroidmod.example_leggings": "Example Leggings",
-  "item.cubetroidmod.example_boots": "Example Boots"
+  "item.cubetroidmod.example_boots": "Example Boots",
+  "itemGroup.cubetroidmod.cubetroid_group": "Cubetroid Mod"
 }

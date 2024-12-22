@@ -9,7 +9,7 @@ import net.minecraft.registry.Registry;
 public class ItemInit {
     public  static final Item CHOZITE_BAR = register("chozite_bar", new Item(new Item.Settings()));
 
-    public static final Item CHOZITE_CHUNK = register("chozite_chunk", new Item(new Item.Settings()));
+    public static final Item CHOZITE_CHUNK = register("chozite_chunk", new Item(new Item.Settings().maxCount(32).fireproof()));
 
     public static final ArmorItem EXAMPLE_HELMET = register("example_helmet", new ArmorItem(ArmorMaterialInit.EXAMPLE,
             ArmorItem.Type.HELMET, new Item.Settings().fireproof().maxCount(1)));
