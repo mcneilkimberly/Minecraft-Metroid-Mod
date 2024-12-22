@@ -1,6 +1,6 @@
 {
   "parent": "minecraft.item/generated",
   "textures": {
-    "layer0": "cubetroid:item/chozite_bar"
+    "layer0": "cubetroidmod:item/chozite_chunk"
   }
 }

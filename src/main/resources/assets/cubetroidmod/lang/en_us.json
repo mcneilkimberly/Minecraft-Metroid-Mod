@@ -1,3 +1,9 @@
 {
-  "item.cubetroidmod.chozite_bar": "Chozite Bar"
+  "item.cubetroidmod.chozite_bar": "Chozite Bar",
+  "item.cubetroidmod.chozite_chunk": "Chozite Chunk",
+  "block.cubetroidmod.chozite_ore": "Chozite Ore",
+  "item.cubetroidmod.example_helmet": "Example Helmet",
+  "item.cubetroidmod.example_chestplate": "Example Chestplate",
+  "item.cubetroidmod.example_leggings": "Example Leggings",
+  "item.cubetroidmod.example_boots": "Example Boots"
 }
