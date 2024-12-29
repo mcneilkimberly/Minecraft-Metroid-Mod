@@ -11,7 +11,7 @@ import net.minecraft.text.Text;
 import java.util.Optional;
 
 public class ItemGroupinit {
-    private static final Text CUBETROID_TITLE = Text.translatable("itemGroup." + Cubetroid.MOD_ID + ".cubetroid_group");
+    public static final Text CUBETROID_TITLE = Text.translatable("itemGroup." + Cubetroid.MOD_ID + ".cubetroid_group");
 
     public static final ItemGroup CUBETROID_GROUP = register("cubetroid_group", FabricItemGroup.builder()
             .displayName(CUBETROID_TITLE)
